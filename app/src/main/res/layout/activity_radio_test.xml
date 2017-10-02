@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:id="@+id/textview1"
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_x="3px">
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton1"/>
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton2"/>
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton3"/>
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton4"/>
+    </RadioGroup>
+</LinearLayout>
+    <!--单选按钮RadioButton在Android平台上也应用的非常多，比如一些选择项的时候，会用到单选按钮，实现单选按钮由两部分组成，也就是RadioButton和RadioGroup配合使用-->
+
+    <!--RadioButton的单选按钮;-->
+    <!--RadioGroup是单选组合框，用于将RadioButton框起来；-->
+    <!--在没有RadioGroup的情况下，RadioButton可以全部都选中；-->
+    <!--当多个RadioButton被RadioGroup包含的情况下，RadioButton只可以选择一个；-->

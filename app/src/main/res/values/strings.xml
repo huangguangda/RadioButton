@@ -1,0 +1,8 @@
+<resources>
+    <string name="hello">哪个城市美女多？</string>
+    <string name="app_name">RadioButton</string>
+    <string name="radiobutton1">杭州</string>
+    <string name="radiobutton2">成都</string>
+    <string name="radiobutton3">重庆</string>
+    <string name="radiobutton4">苏州</string>
+</resources>
